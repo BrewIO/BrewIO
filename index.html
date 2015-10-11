@@ -10,6 +10,7 @@
     <!--style link-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,10 +20,29 @@
     <![endif]-->
   </head>
   <body>
-    <center>
-      <h1>BrewIO</h1>
-    </center>
+    <nav id="head-nav" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">BREW<span class="fa fa-flask"></span>O</a>
+        </div>
 
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Profile</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/BrewIO/BrewIO">Check me out on Github!</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div id="footer" class="navbar navbar-inverse navbar-fixed-bottom">
+      <p class="navbar-text">Brought to you by:</p>
+      <a href="http://blubrackets.github.io/BluBrackets"><img class="avatar" src="http://s3-us-west-2.amazonaws.com/s.cdpn.io/261365/profile/profile-80_2.jpg"></a>
+      <a href="http://falkirks.com"><img class="avatar" src="https://avatars1.githubusercontent.com/u/5827558?v=3&s=80"></a>
+    </div>
     <!--script links-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
